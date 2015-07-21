@@ -2,8 +2,8 @@
 
 return [
     'app' => [
-        'name' => '9377 企业内网',
-        'tagline' => '欢迎来到 9377 企业内网，请输入账号密码登录',
+        'name' => 'October 内容管理',
+        'tagline' => '让一切返璞归真'
     ],
     'locale' => [
         'en' => 'English',
