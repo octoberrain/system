@@ -2,7 +2,7 @@
 
 return [
     'app' => [
-        'name' => 'October 内容管理',
+        'name' => 'October 内容管理系统',
         'tagline' => '让一切返璞归真'
     ],
     'locale' => [
