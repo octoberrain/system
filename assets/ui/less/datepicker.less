@@ -1,0 +1,64 @@
+//
+// Dependencies
+// --------------------------------------------------
+
+@import "global.less";
+
+//
+// Date Picker
+// --------------------------------------------------
+
+@import "datepicker.date.less";
+@import "datepicker.time.less";
+
+.field-datepicker {
+
+}
+
+.pika-single {
+    border-color: @color-focus;
+    border-radius: @border-radius-base;
+    font-size: 12px;
+    margin-top: 5px;
+    &.is-bound {
+        box-shadow: 0 5px 10px -5px rgba(0,0,0,.5);
+    }
+    abbr {
+        border-bottom: none;
+    }
+    .pika-button {
+        border-radius: 0!important;
+    }
+    .is-today .pika-button {
+        background: #ddd;
+        font-weight: bold;
+        color: @color-datepicker-button-today;
+    }
+
+    .is-selected .pika-button {
+        box-shadow: none;
+        background: @color-datepicker-button;
+    }
+
+    .pika-button:hover {
+        background: @color-datepicker-button-hover !important;
+    }
+
+    .pika-label {
+        font-weight: normal;
+    }
+
+    .pika-table th {
+        text-transform: uppercase;
+    }
+
+    .pika-footer {
+        .pika-label {
+            font-size: 12px;
+        }
+    }
+}
+
+.clockpicker-popover {
+    z-index: 9999;
+}
